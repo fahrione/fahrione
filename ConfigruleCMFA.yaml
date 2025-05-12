@@ -63,20 +63,21 @@ proxies:
       headers:
         Host: id1vless.ipservers.xyz
     udp: true
-  - name: AKUN3
-    server: quiz.int.vidio.com
+  - name: fahristb
+    server: quiz.staging.vidio.com
     port: 443
-    type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    type: vmess
+    uuid: 6b504fcc-97e2-4ad2-998d-cb0a5574ef6b
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: idw.flashdigital99.my.id
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vmess
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: idw.flashdigital99.my.id
     udp: true
 
 proxy-groups:
